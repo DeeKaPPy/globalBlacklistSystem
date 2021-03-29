@@ -17,17 +17,11 @@ public class BungeePlugin extends Plugin {
 
     @Override
     public void onEnable() {
-
         Config.init(new File("./plugins/dkBlacklist"));
         Config.load("./plugins/dkBlacklist/blacklists.json");
         BlacklistAPI blacklistHandler = new BlacklistAPI();
         blacklistHandler.setup(Config.getInstance());
         blacklistHandler.start();
-
-        Blacklist blacklist = blacklistHandler.get("name","ip","uuid");
-        if(blacklist != null){
-            // Player is blacklisted
-        }
     }
 
 }
