@@ -22,7 +22,7 @@ You can use this API in two different ways:
 To start the server you'll need a mongodb database, nodejs and npm.
 
 Temp start: ```npm run start```
-Screen start ```screeen -dmS <screen_name> npm run start```
+Screen start ```screen -dmS <screen_name> npm run start```
 
 ## Rest API
 
