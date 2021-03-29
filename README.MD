@@ -18,6 +18,12 @@ You can use this API in two different ways:
 - [X] Create authentication system,
 - [X] Create java plugin to check is a player is blacklisted.
 
+## Starting the server
+To start the server you'll need a mongodb database, nodejs and npm.
+
+Temp start: ```npm run start```
+Screen start ```screeen -dmS <screen_name> npm run start```
+
 ## Rest API
 
  **Get blacklists** - ```GET /api/blacklists``` \
