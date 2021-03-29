@@ -1,0 +1,5 @@
+name: dkBlacklist-1.0-SNAPSHOT
+main: pl.dkcode.blacklist.BukkitPlugin
+version: 1.0-SNAPSHOT
+
+author: DeeKaPPy

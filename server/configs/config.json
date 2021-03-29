@@ -1,0 +1,15 @@
+{
+    "whitelisted": [
+        "127.0.0.1",
+        "localhost",
+        "::1",
+        "::ffff:127.0.0.1"
+    ],
+    "secretWhitelist": [
+        "127.0.0.1",
+        "localhost",
+        "::1",
+        "::ffff:127.0.0.1"
+    ],
+    "secret": "Y3mdcvxU6fwYG5TA"
+}
