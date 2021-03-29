@@ -34,7 +34,7 @@ Screen start ```screen -dmS <screen_name> npm run start```
          "username":"TestUser", # Clients nickname
          "ipAddress: "11.22.33.44", # Clients ip address
          "uuid": "abasdabqwbefsdbfsewbfwea@1", # Clients uuid
-         "admin": "DeeKaPPy", # administrator that the client banned
+         "admin": "DeeKaPPy", # administrator that banned the client
          "server": "dkcode.pl" # Server that blacklist was given on
      }
  ]
@@ -46,7 +46,7 @@ Screen start ```screen -dmS <screen_name> npm run start```
     "username":"TestUser", # Clients nickname
     "ipAddress: "11.22.33.44", # Clients ip address
     "uuid": "abasdabqwbefsdbfsewbfwea@1", # Clients uuid
-    "admin": "DeeKaPPy", # administrator that the client banned
+    "admin": "DeeKaPPy", # administrator that banned the client
     "server": "dkcode.pl" # Server that blacklist was given on
 }
  ```
@@ -58,7 +58,7 @@ Screen start ```screen -dmS <screen_name> npm run start```
         "username":"TestUser", # Clients nickname
         "ipAddress: "11.22.33.44", # Clients ip address
         "uuid": "abasdabqwbefsdbfsewbfwea@1", # Clients uuid
-        "admin": "DeeKaPPy", # administrator that the client banned
+        "admin": "DeeKaPPy", # administrator that banned the client
         "server": "dkcode.pl" # Server that blacklist was given on
     }
  ]
